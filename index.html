@@ -3,11 +3,13 @@
     <form id="user-form">
       <label for="nombre">Tu nombre </label>
       <input type="text" id="nombre"/>
-      <label for="genero">Género</label>
+      <label for="genero">Género </label>
       <select name="genero" id="genero">
         <option value="masculino">Masculino</option>
         <option value="femenino">Femenino</option>
       </select>
+      <label for="edad">Edad</label>
+      <input type="number" id="edad" min="10" max="99"/>
       <input type="submit" value="Ok" id="user-button"/>
     </form>
     <div id="divNombre"></div>
